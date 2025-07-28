@@ -1,79 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-07-21">
+    <day date="2025-07-28">
       <category name="vegan">
         <meal>
-          <name>Pasta Verdure</name>
+          <name>Gemüse Eintopf</name>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="nicht vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Polenta</name>
+          <name>Champignongeschnetzeltes vom Schwein mit Reis</name>
+          <note>F</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-07-22">
-      <category name="vegan">
-        <meal>
-          <name>Zucchini überbacken mit Bulgur</name>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Falafel mit Hummus und Krautsalat</name>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-07-23">
+    <day date="2025-07-29">
       <category name="vegetarisch">
         <meal>
-          <name>Knödel mit Ei</name>
+          <name>Gnocchi mit Spinat und Gorgonzola</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="nicht vegetarisch">
         <meal>
-          <name>Hühner Gemüsepfanne mit Reis</name>
+          <name>Hühner Gemüse Wok mit Reis</name>
+          <note>F</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-07-24">
+    <day date="2025-07-30">
       <category name="vegan">
         <meal>
-          <name>Cremespinat mit Rösti und Spiegelei</name>
+          <name>Shakshuka mit Bulgur</name>
+          <note>A</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="nicht vegetarisch">
         <meal>
-          <name>Honig Karreebraten mit Reis</name>
+          <name>Hühnerschnitzel mit Petersilienkartoffeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-07-25">
-      <category name="vegetarisch">
+    <day date="2025-07-31">
+      <category name="vegan">
         <meal>
-          <name>Zucchini griechische Art</name>
+          <name>Dillfisolen mit Kartoffeln</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="nicht vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Risi Bisi</name>
+          <name>Pasta Tonno</name>
+          <note>A</note>
+          <note>D</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
