@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <day date="2025-07-21">
+      <category name="vegan">
+        <meal>
+          <name>Pasta Verdure</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="nicht vegetarisch">
+        <meal>
+          <name>Wildschweinragout mit Polenta</name>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-22">
+      <category name="vegan">
+        <meal>
+          <name>Zucchini überbacken mit Bulgur</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Falafel mit Hummus und Krautsalat</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-23">
+      <category name="vegetarisch">
+        <meal>
+          <name>Knödel mit Ei</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="nicht vegetarisch">
+        <meal>
+          <name>Hühner Gemüsepfanne mit Reis</name>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-24">
+      <category name="vegan">
+        <meal>
+          <name>Cremespinat mit Rösti und Spiegelei</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="nicht vegetarisch">
+        <meal>
+          <name>Honig Karreebraten mit Reis</name>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-25">
+      <category name="vegetarisch">
+        <meal>
+          <name>Zucchini griechische Art</name>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="nicht vegetarisch">
+        <meal>
+          <name>Hühnerschnitzel mit Risi Bisi</name>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
