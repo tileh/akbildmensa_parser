@@ -21,9 +21,9 @@ german_weekdays = {
 
 MENSA_URL = "https://www.akbild.ac.at/de/universitaet/services/menueplan"
 
-NON_VEGETERIAN = "nicht vegetarisch"
-VEGETERIAN = "vegetarisch"
-VEGAN = "vegan"
+NON_VEGETERIAN = "Nicht Vegetarisch"
+VEGETERIAN = "Vegetarisch"
+VEGAN = "Vegan"
 
 NON_VEG_PRICE = 7
 VEG_PRICE = 6
