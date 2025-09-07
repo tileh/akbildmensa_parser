@@ -2,7 +2,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-09-01">
-      <category name="vegan">
+      <category name="Vegan">
         <meal>
           <name>Pasta Siciliana</name>
           <note>A</note>
@@ -10,7 +10,7 @@
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="nicht vegetarisch">
+      <category name="Nicht Vegetarisch">
         <meal>
           <name>Hühnergeschnetzeltes mit Champignons und Reis</name>
           <note>F</note>
@@ -20,7 +20,7 @@
       </category>
     </day>
     <day date="2025-09-02">
-      <category name="vegan">
+      <category name="Vegan">
         <meal>
           <name>Ratatouille mit Bulgur</name>
           <note>A</note>
@@ -28,7 +28,7 @@
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="nicht vegetarisch">
+      <category name="Nicht Vegetarisch">
         <meal>
           <name>Karreebraten mit Bratkartoffeln</name>
           <note>L</note>
@@ -38,7 +38,7 @@
       </category>
     </day>
     <day date="2025-09-03">
-      <category name="vegan">
+      <category name="Vegan">
         <meal>
           <name>Gemüseeintopf</name>
           <note>L</note>
@@ -46,7 +46,7 @@
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="nicht vegetarisch">
+      <category name="Nicht Vegetarisch">
         <meal>
           <name>Hühner Gemüse Wok mit Reis</name>
           <note>F</note>
@@ -57,7 +57,7 @@
       </category>
     </day>
     <day date="2025-09-04">
-      <category name="vegan">
+      <category name="Vegan">
         <meal>
           <name>Linsen Salbei Gnocchi</name>
           <note>A</note>
@@ -66,7 +66,7 @@
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="vegetarisch">
+      <category name="Vegetarisch">
         <meal>
           <name>Zucchini Griechische Art</name>
           <note>G</note>
@@ -76,7 +76,7 @@
       </category>
     </day>
     <day date="2025-09-05">
-      <category name="vegan">
+      <category name="Vegan">
         <meal>
           <name>Pasta mit Tomaten und Pesto</name>
           <note>A</note>
@@ -84,7 +84,7 @@
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="nicht vegetarisch">
+      <category name="Nicht Vegetarisch">
         <meal>
           <name>Hühnerbrust überbacken mit Reis</name>
           <note>G</note>
