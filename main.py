@@ -35,13 +35,9 @@ class Parser:
         soup = BeautifulSoup(r.content, 'html.parser')
         feed = LazyBuilder()
 
-        week_info_str = (
-            soup
-            .find(lambda tag: self.get_menuplan_tag(tag))
-            .find_next_sibling('p')
-            .find('strong')
-            .get_text()
-        )
+        
+        week_info_str = self.find_weekinfo_str(soup)
+
 
         # try extracting string from website, else fallback to current week
         try:
@@ -91,6 +87,7 @@ class Parser:
 
 
     def find_menu_in_current_weekday_content(self, weekday_content: list[Tag]) -> Tag:
+        
         for content in weekday_content:
             ul = content if content.name == "ul" else content.find("ul")
             if ul is None:
@@ -102,7 +99,7 @@ class Parser:
             if li.find("p"):
                 return ul
 
-        return None
+        return ul
 
     def parse_mealname(self, meal: str) -> tuple[str, str, list[str]]:
         # Remove non-breaking spaces and trim
@@ -163,7 +160,16 @@ class Parser:
     
     def get_menuplan_tag(self, currentTag: Tag) -> Tag:
         return currentTag.name == "h2" and "Menüplan" in currentTag.get_text()
+    
+    def find_weekinfo_str(self, soup) -> str:
+        p_tag = (
+        soup
+        .find(lambda tag: self.get_menuplan_tag(tag))
+        .find_next_sibling('p')
+        )
 
+        strong_tag = p_tag.find('strong')
+        return strong_tag.get_text() if strong_tag else p_tag.get_text()
     
 if __name__ == "__main__":
     os.makedirs("feed", exist_ok=True)
