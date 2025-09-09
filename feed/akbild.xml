@@ -1,46 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-09-01">
+    <day date="2025-09-08">
       <category name="Vegan">
         <meal>
-          <name>Pasta Siciliana</name>
+          <name>Kürbis Pasta</name>
           <note>A</note>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnergeschnetzeltes mit Champignons und Reis</name>
+          <name>Curryhuhn mit Reis</name>
           <note>F</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-09-02">
+    <day date="2025-09-09">
       <category name="Vegan">
         <meal>
-          <name>Ratatouille mit Bulgur</name>
+          <name>Gemüse Fajita</name>
           <note>A</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Karreebraten mit Bratkartoffeln</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-09-03">
-      <category name="Vegan">
-        <meal>
-          <name>Gemüseeintopf</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -48,46 +32,68 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner Gemüse Wok mit Reis</name>
-          <note>F</note>
+          <name>Wildschweinragout mit Polenta</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-09-04">
-      <category name="Vegan">
-        <meal>
-          <name>Linsen Salbei Gnocchi</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
+    <day date="2025-09-10">
       <category name="Vegetarisch">
         <meal>
-          <name>Zucchini Griechische Art</name>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-09-05">
-      <category name="Vegan">
-        <meal>
-          <name>Pasta mit Tomaten und Pesto</name>
+          <name>Melanzani überbacken mit Bulgur</name>
           <note>A</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerbrust überbacken mit Reis</name>
+          <name>Pasta Bolognese vom Rind</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-09-11">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Knödel mit Ei</name>
+          <note>A</note>
+          <note>C</note>
           <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Würstelgulasch</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-09-12">
+      <category name="Vegan">
+        <meal>
+          <name>Fenchel Risotto</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Gebackene Scholle mit Petersilienkartoffeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>D</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
