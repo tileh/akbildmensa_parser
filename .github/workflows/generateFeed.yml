@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 6 * * 1-5"
+    - cron: "0 8-10 * * 1"
 concurrency:
   group: parsers-${{ github.ref }}
   cancel-in-progress: true
