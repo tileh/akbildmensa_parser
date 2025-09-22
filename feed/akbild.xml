@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-09-15">
+    <day date="2025-09-22">
       <category name="Vegan">
         <meal>
           <name>Gemüse mediterrane Art</name>
@@ -22,7 +22,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-09-16">
+    <day date="2025-09-23">
       <category name="Vegan">
         <meal>
           <name>Krautfleckerl</name>
@@ -40,7 +40,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-09-17">
+    <day date="2025-09-24">
       <category name="Vegan">
         <meal>
           <name>Kürbis Pasta</name>
@@ -59,7 +59,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-09-18">
+    <day date="2025-09-25">
       <category name="Nicht Vegetarisch">
         <meal>
           <name>Cremespinat mit Rösti und Spiegelei (vegan/vegetarisch)</name>
@@ -78,7 +78,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-09-19">
+    <day date="2025-09-26">
       <category name="Vegetarisch">
         <meal>
           <name>Gnocchi Zucchini Mascarpone</name>
