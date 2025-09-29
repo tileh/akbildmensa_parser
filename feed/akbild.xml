@@ -4,22 +4,23 @@
     <day date="2025-09-29">
       <category name="Vegan">
         <meal>
-          <name>Gemüsecremesuppe</name>
-          <note>L</note>
+          <name>Kürbiscremesuppe</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Zucchini-Kürbis Pasta</name>
+          <name>Pasta Siciliana</name>
           <note>A</note>
-          <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Karreebraten mit Bratkartoffeln</name>
+          <name>Hühner Fajita</name>
+          <note>A</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
@@ -29,15 +30,16 @@
     <day date="2025-09-30">
       <category name="Vegan">
         <meal>
-          <name>Linsensuppe</name>
-          <note>P</note>
+          <name>Gemüsecremesuppe</name>
+          <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Kartoffel-Kürbis Auflauf</name>
+          <name>Zucchini überbacken mit Bulgur</name>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -45,7 +47,7 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner Gemüse Wok</name>
+          <name>Schweinegeschnetzeltes mit Champignons und Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -56,22 +58,24 @@
     <day date="2025-10-01">
       <category name="Vegan">
         <meal>
-          <name>Maiscremesuppe</name>
-          <note>F</note>
+          <name>Französische Zwiebelsuppe</name>
+          <note>L</note>
+          <note>O</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Arrabiata</name>
+          <name>Linsen Gnocchi</name>
           <note>A</note>
-          <note>G</note>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Bratkartoffeln</name>
+          <name>Hühner-Gemüse-Pfanne mit Reis</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
@@ -81,22 +85,23 @@
     <day date="2025-10-02">
       <category name="Vegan">
         <meal>
-          <name>Minestrone</name>
-          <note>L</note>
+          <name>Linsensuppe</name>
+          <note>P</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Spinat-Kichererbsen Curry mit Reis</name>
-          <note>F</note>
+          <name>Kürbis-Kartoffel-Gulasch</name>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
+          <name>Knödel mit Ei</name>
           <note>A</note>
+          <note>C</note>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -106,26 +111,27 @@
     <day date="2025-10-03">
       <category name="Vegetarisch">
         <meal>
-          <name>Frittatensuppe</name>
+          <name>Nudelsuppe</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Vegan">
         <meal>
-          <name>Kürbis-Fenchel Risotto</name>
+          <name>Zucchini-Kürbis Pasta</name>
           <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner Kebab mit Bulgur</name>
+          <name>Hühnerschnitzel mit Risi Bisi</name>
           <note>A</note>
+          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
