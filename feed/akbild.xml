@@ -4,13 +4,14 @@
     <day date="2025-10-06">
       <category name="Vegan">
         <meal>
-          <name>Kürbiscremesuppe</name>
+          <name>Karfiolcremesuppe</name>
           <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Siciliana</name>
+          <name>Pasta Verdure</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -19,8 +20,7 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner Fajita</name>
-          <note>A</note>
+          <name>Wildschweinragout mit Bratkartoffeln</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
@@ -30,24 +30,23 @@
     <day date="2025-10-07">
       <category name="Vegan">
         <meal>
-          <name>Gemüsecremesuppe</name>
+          <name>Kürbiscremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Curryreis mit Gemüse</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Vegetarisch">
-        <meal>
-          <name>Zucchini überbacken mit Bulgur</name>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Schweinegeschnetzeltes mit Champignons und Reis</name>
+          <name>Huhn Thai Art mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -58,25 +57,23 @@
     <day date="2025-10-08">
       <category name="Vegan">
         <meal>
-          <name>Französische Zwiebelsuppe</name>
-          <note>L</note>
-          <note>O</note>
+          <name>Ungarische Krautsuppe</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Linsen Gnocchi</name>
+          <name>Gemüse Fajita</name>
           <note>A</note>
-          <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner-Gemüse-Pfanne mit Reis</name>
-          <note>F</note>
-          <note>L</note>
+          <name>Saltimbocca vom Schwein mit Bratkartoffeln</name>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
@@ -85,43 +82,7 @@
     <day date="2025-10-09">
       <category name="Vegan">
         <meal>
-          <name>Linsensuppe</name>
-          <note>P</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Kürbis-Kartoffel-Gulasch</name>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Vegetarisch">
-        <meal>
-          <name>Knödel mit Ei</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-10-10">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Nudelsuppe</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Zucchini-Kürbis Pasta</name>
-          <note>F</note>
+          <name>Alt-Wiener Suppe</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -129,9 +90,45 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Risi Bisi</name>
+          <name>Pasta Zucchini mit Feta (vegan/vegetarisch)</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Cremespinat mit Rösti und Spiegelei (vegan/vegetarisch)</name>
+          <note>C</note>
+          <note>F</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-10-10">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Backerbsensuppe</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Gefüllte Paprika mit Joghurt Dip (vegan/vegetarisch)</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Gebackene Scholle mit Petersilienkartoffeln</name>
           <note>A</note>
           <note>C</note>
+          <note>D</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
