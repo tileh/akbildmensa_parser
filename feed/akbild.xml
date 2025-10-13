@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-10-06">
+    <day date="2025-10-13">
       <category name="Vegan">
         <meal>
-          <name>Karfiolcremesuppe</name>
-          <note>F</note>
+          <name>Karotten Ingwer Suppe</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Verdure</name>
+          <name>Kürbis Pasta</name>
           <note>A</note>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -20,50 +20,48 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Bratkartoffeln</name>
+          <name>Paprikahendl mit Reis</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-10-07">
+    <day date="2025-10-14">
+      <category name="Vegan">
+        <meal>
+          <name>Maiscremesuppe</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Linsen Kartoffel Eintopf</name>
+          <note>P</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Pizzaiola vom Schwein mit Bratkartoffeln</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-10-15">
       <category name="Vegan">
         <meal>
           <name>Kürbiscremesuppe</name>
           <note>F</note>
-          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Curryreis mit Gemüse</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Huhn Thai Art mit Reis</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-10-08">
-      <category name="Vegan">
-        <meal>
-          <name>Ungarische Krautsuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüse Fajita</name>
+          <name>Pasta Arrabiata</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -72,63 +70,65 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Saltimbocca vom Schwein mit Bratkartoffeln</name>
-          <note>G</note>
+          <name>Champignongeschnetzeltes vom Huhn mit Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-10-09">
+    <day date="2025-10-16">
       <category name="Vegan">
         <meal>
-          <name>Alt-Wiener Suppe</name>
+          <name>Orientalische Bauernsuppe</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Gemüseeintopf</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Pasta Zucchini mit Feta (vegan/vegetarisch)</name>
-          <note>A</note>
-          <note>F</note>
-          <note>G</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-        <meal>
-          <name>Cremespinat mit Rösti und Spiegelei (vegan/vegetarisch)</name>
-          <note>C</note>
-          <note>F</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-10-10">
       <category name="Vegetarisch">
         <meal>
-          <name>Backerbsensuppe</name>
+          <name>Kürbisknödel mit Käsesauce</name>
           <note>A</note>
-          <note>L</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-10-17">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Frittatensuppe</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Gefüllte Paprika mit Joghurt Dip (vegan/vegetarisch)</name>
-          <note>A</note>
+          <name>Shakshuka mit Joghurt Dip (vegan/vegetarisch)</name>
           <note>G</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
         <meal>
-          <name>Gebackene Scholle mit Petersilienkartoffeln</name>
+          <name>Hühnerkeule überbacken mit Bulgur</name>
           <note>A</note>
-          <note>C</note>
-          <note>D</note>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
