@@ -4,15 +4,14 @@
     <day date="2025-10-20">
       <category name="Vegan">
         <meal>
-          <name>Karotten Ingwer Suppe</name>
+          <name>Minestrone</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Kürbis Pasta</name>
+          <name>Ratatouille mit Bulgur</name>
           <note>A</note>
-          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -20,9 +19,10 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Paprikahendl mit Reis</name>
+          <name>Schwein Stroganoff mit Reis</name>
           <note>F</note>
           <note>L</note>
+          <note>O</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
@@ -31,21 +31,23 @@
     <day date="2025-10-21">
       <category name="Vegan">
         <meal>
-          <name>Maiscremesuppe</name>
-          <note>F</note>
+          <name>Linsensuppe</name>
+          <note>P</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Linsen Kartoffel Eintopf</name>
-          <note>P</note>
+          <name>Kürbis Pasta</name>
+          <note>A</note>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Pizzaiola vom Schwein mit Bratkartoffeln</name>
+          <name>Huhn Thai Art mit Reis</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
@@ -55,14 +57,15 @@
     <day date="2025-10-22">
       <category name="Vegan">
         <meal>
-          <name>Kürbiscremesuppe</name>
+          <name>Gemüsecremesuppe</name>
           <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Arrabiata</name>
-          <note>A</note>
+          <name>Zucchini-Fenchel Risotto mit Granatapfel</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -70,10 +73,8 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Champignongeschnetzeltes vom Huhn mit Reis</name>
-          <note>F</note>
+          <name>Würstel-Kartoffel-Gulasch</name>
           <note>L</note>
-          <note>O</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
@@ -82,14 +83,14 @@
     <day date="2025-10-23">
       <category name="Vegan">
         <meal>
-          <name>Orientalische Bauernsuppe</name>
-          <note>A</note>
+          <name>Brokkolicremesuppe</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Gemüseeintopf</name>
+          <name>Dillfisolen mit Rösti</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -97,9 +98,8 @@
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Kürbisknödel mit Käsesauce</name>
+          <name>Melanzani überbacken mit Bulgur</name>
           <note>A</note>
-          <note>C</note>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -107,30 +107,30 @@
       </category>
     </day>
     <day date="2025-10-24">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Frittatensuppe</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Shakshuka mit Joghurt Dip (vegan/vegetarisch)</name>
+          <name>Backerbsensuppe (vegan/vegetarisch)</name>
+          <note>A</note>
+          <note>C</note>
           <note>G</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
         <meal>
-          <name>Hühnerkeule überbacken mit Bulgur</name>
+          <name>Hühnerschnitzel mit Petersilienkartoffeln</name>
           <note>A</note>
-          <note>G</note>
+          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Kürbis-Kartoffel-Gulasch</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
         </meal>
       </category>
     </day>
