@@ -115,10 +115,10 @@ class Parser:
 
         # Extract and remove category in parentheses, e.g., "(vegan)"
         category = NON_VEGETERIAN
-        category_match = re.search(r'\((vegan|vegetarisch)\)', meal, re.IGNORECASE)
+        category_match = re.search(r'\((vegan|vegetarisch|vegan/vegetarisch)\)', meal, re.IGNORECASE)
         if category_match:
             label = category_match.group(1).lower()
-            category = VEGAN if label == "vegan" else VEGETERIAN
+            category = VEGAN if label.startswith("vegan")  else VEGETERIAN
             meal = re.sub(r'\s*\(.*?\)', '', meal).strip()  # Remove the category from the meal name
 
         return meal, category, allergenes
