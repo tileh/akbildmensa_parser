@@ -28,8 +28,9 @@ NON_VEGETERIAN = "Nicht Vegetarisch"
 VEGETERIAN = "Vegetarisch"
 VEGAN = "Vegan"
 
-NON_VEG_PRICE = 7
 VEG_PRICE = 6
+NON_VEG_PRICE = 7
+WOCHENTELLER_PRICE = 8
 
 
 class Parser:
@@ -49,12 +50,16 @@ class Parser:
             today = date.today()
             monday_date = today - timedelta(days=today.weekday())
 
-        monday_tag = soup.find(
-            lambda tag: self._get_menuplan_tag(tag)
-        ).find_next_sibling(
+        menuplan = soup.find(lambda tag: self._get_menuplan_tag(tag))
+
+        try:
+            wochenteller = self._parse_wochenteller(menuplan)
+        except Exception as e:
+            log.warning(f"Could not parse Wochenteller: {e}")
+
+        monday_tag = menuplan.find_next_sibling(
             lambda tag: tag.name == "p" and german_weekdays[0] in tag.get_text()
         )
-
         weekday_contents = self._split_menu_per_weekday(monday_tag)
 
         for i, weekday_content in weekday_contents.items():
@@ -80,7 +85,27 @@ class Parser:
                     current_date_str, category, name, allergenes, prices=prices
                 )
 
+            # add wochenteller to each day
+            if wochenteller:
+                name, category, allergenes = self._parse_mealname(
+                    wochenteller.get_text()
+                )
+                feed.addMeal(
+                    current_date_str,
+                    f"Wochenteller {category}",
+                    name,
+                    allergenes,
+                    {"other": f"{WOCHENTELLER_PRICE}.00"},
+                )
+
         return feed.toXMLFeed()
+
+    def _parse_wochenteller(self, menuplan: Tag) -> Tag:
+        wochenteller_tag = menuplan.find_next_sibling(
+            lambda tag: tag.name == "p" and "Wochenteller" in tag.get_text()
+        )
+        meal = wochenteller_tag.find_next_sibling().find("li")
+        return meal
 
     def _find_menu_in_current_weekday_content(self, weekday_content: list[Tag]) -> Tag:
         for content in weekday_content:
