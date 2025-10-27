@@ -4,13 +4,13 @@
     <day date="2025-10-27">
       <category name="Vegan">
         <meal>
-          <name>Minestrone</name>
+          <name>Gemüsesuppe</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Ratatouille mit Bulgur</name>
+          <name>Pasta Verdure</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -19,23 +19,58 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Schwein Stroganoff mit Reis</name>
-          <note>F</note>
+          <name>Majoran-Honigbraten vom Schwein mit Bratkartoffeln</name>
           <note>L</note>
-          <note>O</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
       <category name="Wochenteller Vegan">
         <meal>
-          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <name>Linguine in Kräuterseitlingsauce</name>
           <note>A</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
     <day date="2025-10-28">
+      <category name="Vegan">
+        <meal>
+          <name>Kürbiscremesuppe</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Linsen Gemüse Eintopf</name>
+          <note>L</note>
+          <note>P</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnercurry mit Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine in Kräuterseitlingsauce</name>
+          <note>A</note>
+          <note>F</note>
+          <note>O</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-10-29">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -44,16 +79,15 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Kürbis Pasta</name>
+          <name>Krautfleckerl</name>
           <note>A</note>
-          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Huhn Thai Art mit Reis</name>
+          <name>Naturschnitzel vom Schwein in Pfeffersauce mit Bratkartoffeln</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -62,13 +96,15 @@
       </category>
       <category name="Wochenteller Vegan">
         <meal>
-          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <name>Linguine in Kräuterseitlingsauce</name>
           <note>A</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-10-29">
+    <day date="2025-10-30">
       <category name="Vegan">
         <meal>
           <name>Gemüsecremesuppe</name>
@@ -78,39 +114,7 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Zucchini-Fenchel Risotto mit Granatapfel</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Würstel-Kartoffel-Gulasch</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
-          <note>A</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-10-30">
-      <category name="Vegan">
-        <meal>
-          <name>Brokkolicremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Dillfisolen mit Rösti</name>
+          <name>Spinat-Kartoffel-Kichererbsen-Curry</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -119,8 +123,9 @@
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
+          <name>Knödel mit Ei</name>
           <note>A</note>
+          <note>C</note>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -128,16 +133,18 @@
       </category>
       <category name="Wochenteller Vegan">
         <meal>
-          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <name>Linguine in Kräuterseitlingsauce</name>
           <note>A</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
     <day date="2025-10-31">
-      <category name="Vegan">
+      <category name="Vegetarisch">
         <meal>
-          <name>Backerbsensuppe</name>
+          <name>Nudelsuppe</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -145,8 +152,11 @@
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
+      </category>
+      <category name="Vegan">
         <meal>
-          <name>Kürbis-Kartoffel-Gulasch</name>
+          <name>Zucchini Kürbis Gnocchi</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -154,17 +164,20 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Petersilienkartoffeln</name>
+          <name>Scholle gebacken mit Petersilienkartoffeln</name>
           <note>A</note>
           <note>C</note>
+          <note>D</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
       <category name="Wochenteller Vegan">
         <meal>
-          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <name>Linguine in Kräuterseitlingsauce</name>
           <note>A</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
