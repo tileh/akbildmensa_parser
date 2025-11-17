@@ -4,16 +4,14 @@
     <day date="2025-11-17">
       <category name="Vegan">
         <meal>
-          <name>Orientalische Bauernsuppe</name>
-          <note>A</note>
-          <note>F</note>
+          <name>Linsensuppe</name>
+          <note>P</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Kürbis Pasta</name>
+          <name>Pasta al Greco mit Feta</name>
           <note>A</note>
-          <note>F</note>
           <note>G</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -22,16 +20,19 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Bratkartoffeln</name>
+          <name>Orientalische Hühnerpfanne mit Bulgur</name>
+          <note>A</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Linguine Salmone</name>
           <note>A</note>
+          <note>D</note>
+          <note>F</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
@@ -40,31 +41,36 @@
     <day date="2025-11-18">
       <category name="Vegan">
         <meal>
-          <name>Karfiolcremesuppe</name>
+          <name>Kürbiscremesuppe</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
+      </category>
+      <category name="Vegetarisch">
         <meal>
-          <name>Krautfleckerl</name>
+          <name>Linsen Salbei Gnocchi</name>
           <note>A</note>
+          <note>F</note>
+          <note>P</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Thai Huhn mit Kokosmilch und Reis</name>
-          <note>F</note>
+          <name>Gebratenes Schweinskarree mit Rosmarinkartoffeln</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Linguine Salmone</name>
           <note>A</note>
+          <note>D</note>
+          <note>F</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
@@ -73,33 +79,33 @@
     <day date="2025-11-19">
       <category name="Vegan">
         <meal>
-          <name>Karotten Ingwer Suppe</name>
+          <name>Maiscremesuppe</name>
           <note>F</note>
-          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Gemüse Risotto</name>
-          <note>F</note>
+          <name>Kürbis-Kartoffel-Gulasch</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Nicht Vegetarisch">
+      <category name="Vegetarisch">
         <meal>
-          <name>Schinken-Nudel-Auflauf</name>
+          <name>Melanzani überbacken mit Bulgur</name>
           <note>A</note>
-          <note>F</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Linguine Salmone</name>
           <note>A</note>
+          <note>D</note>
+          <note>F</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
@@ -108,7 +114,14 @@
     <day date="2025-11-20">
       <category name="Vegan">
         <meal>
-          <name>Erbsencremesuppe</name>
+          <name>Gemüsecremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Gemüse Wok mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -117,28 +130,20 @@
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Pasta mit Spinat-Käse-Sauce</name>
+          <name>Kürbisknödel mit Rote Rüben Sauce</name>
           <note>A</note>
-          <note>F</note>
+          <note>C</note>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Nicht Vegetarisch">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Faschierte Laibchen mit Kartoffelpüree</name>
+          <name>Linguine Salmone</name>
           <note>A</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
-          <note>A</note>
+          <note>D</note>
+          <note>F</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
