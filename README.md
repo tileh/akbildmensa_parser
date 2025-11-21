@@ -31,6 +31,13 @@ feed/akbild.xml
 
 You can then preview it or serve it locally.
 
+## Logging
+
+- Logging: the parser now supports configurable logging. Set the `LOG_LEVEL` environment variable to control verbosity (`INFO` by default). Example:
+
+```bash
+LOG_LEVEL=DEBUG python main.py
+```
 ## GitHub Actions Automation
 
 This repository uses **GitHub Actions** to automatically run the parser and publish the result.

@@ -149,5 +149,44 @@
         </meal>
       </category>
     </day>
+    <day date="2025-11-21">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Nudelsuppe</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Pasta Zucchini A.</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnerschnitzel mit Petersilienkartoffeln</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>Linguine Salmone</name>
+          <note>A</note>
+          <note>D</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
   </canteen>
 </openmensa>
