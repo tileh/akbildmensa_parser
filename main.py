@@ -34,21 +34,12 @@ WOCHENTELLER_PRICE = 8
 
 
 class Parser:
-    def generate_feed(self) -> str:
+    def generate_feed(self, fetch_date: date) -> str:
         r = requests.get(MENSA_URL)
         soup = BeautifulSoup(r.content, "html.parser")
         feed = LazyBuilder()
 
-        week_info_str = self._find_weekinfo_str(soup)
-
-        try:
-            monday_date = self._get_monday_from_week_info_str(week_info_str)
-        except Exception as e:
-            log.warning(
-                f"Could not determine monday from week_info. Falling back to system time: {e}"
-            )
-            today = date.today()
-            monday_date = today - timedelta(days=today.weekday())
+        monday_date = fetch_date - timedelta(days=fetch_date.weekday())
 
         menuplan = soup.find(lambda tag: self._get_menuplan_tag(tag))
 
@@ -63,9 +54,13 @@ class Parser:
         weekday_contents = self._split_menu_per_weekday(monday_tag)
 
         for i, weekday_content in weekday_contents.items():
-            current_day_menu = self._find_menu_in_current_weekday_content(
-                weekday_content=weekday_content
-            )
+            current_day_menu = None
+            try:
+                current_day_menu = self._find_menu_in_current_weekday_content(
+                    weekday_content=weekday_content
+                )
+            except Exception as e:
+                log.warning(f"Could not find menu in weekday_content: {e}")
 
             current_date = monday_date + timedelta(days=i)
             current_date_str = current_date.strftime("%Y-%m-%d")
@@ -119,7 +114,7 @@ class Parser:
             if li.find("p"):
                 return ul
 
-        return ul
+        raise ValueError("Could not find ul")
 
     def _parse_mealname(self, meal: str) -> tuple[str, str, list[str]]:
         # Remove non-breaking spaces and trim
@@ -199,6 +194,12 @@ class Parser:
 if __name__ == "__main__":
     log.info("Running parser")
     os.makedirs("feed", exist_ok=True)
-    feed = Parser().generate_feed()
+
+    fetch_date = date.today()
+    # If today is Saturday or Sunday, use the next Monday
+    if fetch_date.weekday() >= 5:
+        fetch_date += timedelta(days=(7 - fetch_date.weekday()))
+
+    feed = Parser().generate_feed(fetch_date)
     with io.open("feed/akbild.xml", "w", encoding="utf8", newline="\n") as f:
         f.write(feed)
