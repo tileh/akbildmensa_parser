@@ -37,6 +37,7 @@ class Parser:
     def generate_feed(self, fetch_date: date) -> str:
         r = requests.get(MENSA_URL)
         soup = BeautifulSoup(r.content, "html.parser")
+        soup = self._unstir_the_soup(soup)
         feed = LazyBuilder()
 
         monday_date = fetch_date - timedelta(days=fetch_date.weekday())
@@ -189,6 +190,19 @@ class Parser:
 
         strong_tag = p.find("strong")
         return strong_tag.get_text() if strong_tag else p.get_text()
+
+    def _unstir_the_soup(self, soup):
+        # remove <strong> and <p> tags that have no visible/text content
+        for tag in soup.find_all(["strong", "p"]):
+            if tag.get_text(strip=True):
+                continue
+            else:
+                tag.decompose()
+        # finally unwrap all divs
+        for div in soup.find_all("div"):
+            div.unwrap()
+
+        return soup
 
 
 if __name__ == "__main__":
