@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-11-17">
+    <day date="2025-11-24">
+      <category name="Vegan">
+        <meal>
+          <name>Altwiener Suppe</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Kürbispesto</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Schweinegeschnetzeltes mit Champignons und Polenta</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <note>A</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-11-25">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -10,9 +42,7 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta al Greco mit Feta</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Gemüse Kartoffel Gulasch</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -20,131 +50,121 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Orientalische Hühnerpfanne mit Bulgur</name>
+          <name>Pasta Carbonara</name>
           <note>A</note>
-          <note>L</note>
+          <note>F</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Nicht Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Linguine Salmone</name>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
           <note>A</note>
-          <note>D</note>
-          <note>F</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-11-18">
+    <day date="2025-11-26">
       <category name="Vegan">
         <meal>
-          <name>Kürbiscremesuppe</name>
+          <name>Ungarische Krautsuppe</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
-      </category>
-      <category name="Vegetarisch">
         <meal>
-          <name>Linsen Salbei Gnocchi</name>
+          <name>Gemüse Fajita</name>
           <note>A</note>
-          <note>F</note>
-          <note>P</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Gebratenes Schweinskarree mit Rosmarinkartoffeln</name>
+          <name>Hühner Gemüse Pfanne mit Reis</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Nicht Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Linguine Salmone</name>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
           <note>A</note>
-          <note>D</note>
-          <note>F</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-11-19">
+    <day date="2025-11-27">
       <category name="Vegan">
         <meal>
-          <name>Maiscremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Kürbis-Kartoffel-Gulasch</name>
+          <name>Gemüsesuppe</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
-      </category>
-      <category name="Vegetarisch">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Cremespinat mit Rösti und Spiegelei</name>
+          <note>C</note>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Nicht Vegetarisch">
+      <category name="Nicht Vegetarisch">
         <meal>
-          <name>Linguine Salmone</name>
-          <note>A</note>
-          <note>D</note>
-          <note>F</note>
+          <name>Saltimbocca vom Schwein mit Bratkartoffeln</name>
           <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <note>A</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2025-11-20">
-      <category name="Vegan">
-        <meal>
-          <name>Gemüsecremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüse Wok mit Reis</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
+    <day date="2025-11-28">
       <category name="Vegetarisch">
         <meal>
-          <name>Kürbisknödel mit Rote Rüben Sauce</name>
+          <name>Backerbsensuppe</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Nicht Vegetarisch">
+      <category name="Vegan">
         <meal>
-          <name>Linguine Salmone</name>
+          <name>Gefüllte Paprika mit Joghurt Dip</name>
           <note>A</note>
-          <note>D</note>
-          <note>F</note>
           <note>G</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Piccata Milanese vom Huhn mit Nudeln</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <note>A</note>
           <price role="other">8.00</price>
         </meal>
       </category>
