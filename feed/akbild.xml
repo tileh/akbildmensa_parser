@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-01">
+    <day date="2025-12-08">
       <category name="Vegan">
         <meal>
           <name>Minestrone</name>
@@ -34,7 +34,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-12-02">
+    <day date="2025-12-09">
       <category name="Vegan">
         <meal>
           <name>Kürbiscremesuppe</name>
@@ -67,7 +67,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-12-03">
+    <day date="2025-12-10">
       <category name="Vegan">
         <meal>
           <name>Gemüsecremesuppe</name>
@@ -103,7 +103,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-12-04">
+    <day date="2025-12-11">
       <category name="Vegan">
         <meal>
           <name>Karotten-Kokos-Suppe</name>
@@ -141,7 +141,7 @@
         </meal>
       </category>
     </day>
-    <day date="2025-12-05">
+    <day date="2025-12-12">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
