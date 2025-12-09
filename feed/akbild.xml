@@ -2,34 +2,17 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-12-08">
-      <category name="Vegan">
-        <meal>
-          <name>Minestrone</name>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Kürbis Pasta</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Mexikanischer Schweinefleisch-Eintopf mit Reis</name>
-          <note>L</note>
+          <name>Feiertag</name>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
@@ -43,105 +26,28 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Orientalischer Gemüseeintopf</name>
-          <note>L</note>
+          <name>Gemüse Wok mit Reis F, l</name>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Curryhuhn mit Reis</name>
-          <note>F</note>
+          <name>Wildschweinragout mit Polenta</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
     <day date="2025-12-10">
-      <category name="Vegan">
-        <meal>
-          <name>Gemüsecremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Ratatouille mit Bulgur</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Schinken-Nudel-Auflauf</name>
-          <note>A</note>
-          <note>F</note>
-          <note>G</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-11">
-      <category name="Vegan">
-        <meal>
-          <name>Karotten-Kokos-Suppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Vegetarisch">
-        <meal>
-          <name>Knödel mit Ei</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Pasta Bolognese</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-12">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -152,27 +58,99 @@
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
-          <note>A</note>
+          <name>Kartoffel-Karfiol überbacken</name>
+          <note>F</note>
           <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Risi Bisi</name>
+          <name>Pasta Pollo</name>
           <note>A</note>
-          <note>C</note>
+          <note>F</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gegrillter Schafkäse auf buntem Gemüse</name>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
           <note>A</note>
-          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-11">
+      <category name="Vegan">
+        <meal>
+          <name>Zucchinicremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Orientalischer Gemüseeintopf</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Schweinegeschnetzeltes mit Champignons und Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <note>A</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-12">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Nudelsuppe</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Gemüse Taboulé mit Tofu</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Scholle gebacken mit Petersilienkartoffeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>D</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Falafel mit gegrilltem Gemüse und Hummus</name>
+          <note>A</note>
           <price role="other">8.00</price>
         </meal>
       </category>
