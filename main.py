@@ -2,8 +2,9 @@ import io
 import logging
 import os
 import re
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 
+import dateparser
 import requests
 from bs4 import BeautifulSoup, Tag
 from pyopenmensa.feed import LazyBuilder
@@ -40,9 +41,9 @@ class Parser:
         soup = self._unstir_the_soup(soup)
         feed = LazyBuilder()
 
-        monday_date = fetch_date - timedelta(days=fetch_date.weekday())
-
         menuplan = soup.find(lambda tag: self._get_menuplan_tag(tag))
+
+        monday_date = self._calculate_week_start_date(fetch_date, menuplan)
 
         try:
             wochenteller = self._parse_wochenteller(menuplan)
@@ -96,6 +97,38 @@ class Parser:
 
         return feed.toXMLFeed()
 
+    def _calculate_week_start_date(self, fetch_date, menuplan) -> date:
+        """
+        Tries to parse the week start date (Monday) from the menuplan.
+        If it fails, it falls back to calculating the Monday of the fetch_date's week.
+        """
+
+        try:
+            menu_period = menuplan.find_next_sibling("p").get_text()
+            menu_period_start_date = menu_period.split("bis")[0].strip()
+            parsed_start_date = dateparser.parse(
+                menu_period_start_date, languages=["de"], date_formats=["%a, %d.%m"]
+            ).date()
+
+            # If the parsed date is more than 7 days in the future, it must likely belong to the previous year
+            # For example, when you parse in January, the menuplan might still show "Mo, 15. Dezember bis Fr, 19. Dezember"
+            # as the last menuplan of the previous year. In this case, we adjust the year accordingly.
+            if parsed_start_date > fetch_date + timedelta(days=7):
+                parsed_start_date = parsed_start_date.replace(year=fetch_date.year - 1)
+
+            if parsed_start_date.weekday() != 0:
+                raise Exception(
+                    f"Parsed start date is not a Monday: {parsed_start_date}"
+                )
+
+            monday_date = parsed_start_date
+        except Exception as e:
+            log.warning(
+                f"Could not parse weekinfo string: {e}. Falling back to fetch_date."
+            )
+            monday_date = fetch_date - timedelta(days=fetch_date.weekday())
+        return monday_date
+
     def _parse_wochenteller(self, menuplan: Tag) -> Tag:
         wochenteller_tag = menuplan.find_next_sibling(
             lambda tag: tag.name == "p" and "Wochenteller" in tag.get_text()
@@ -147,13 +180,6 @@ class Parser:
 
         return meal, category, allergenes
 
-    def _get_monday_from_week_info_str(self, date_str: str) -> date:
-        start_part = date_str.split("bis")[0].strip()
-        str_split_by_fullstop = date_str.split(".")
-        year = str_split_by_fullstop[len(str_split_by_fullstop) - 1]
-        date_str = start_part.split()[-1] + year
-        return datetime.strptime(date_str, "%d.%m.%Y").date()
-
     def _split_menu_per_weekday(self, tag: Tag) -> dict[int, list[Tag]]:
         result = {}
         all_siblings = tag.find_next_siblings()
@@ -184,12 +210,6 @@ class Parser:
 
     def _get_menuplan_tag(self, currentTag: Tag) -> Tag:
         return currentTag.name == "h2" and "Menüplan" in currentTag.get_text()
-
-    def _find_weekinfo_str(self, soup) -> str:
-        p = soup.find(lambda tag: self._get_menuplan_tag(tag)).find_next_sibling("p")
-
-        strong_tag = p.find("strong")
-        return strong_tag.get_text() if strong_tag else p.get_text()
 
     def _unstir_the_soup(self, soup):
         # remove <strong> and <p> tags that have no visible/text content
