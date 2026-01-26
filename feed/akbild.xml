@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-19">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Frittatensuppe</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Eiernockerl</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Paprikahendl mit Reis</name>
-          <note>F</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Gemüsestrudel mit Joghurt Dip</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-20">
+    <day date="2026-01-26">
       <category name="Vegan">
         <meal>
-          <name>Kürbiscremesuppe</name>
-          <note>F</note>
+          <name>Altwiener Suppe</name>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Gemüsecurry mit Reis</name>
+          <name>Pasta Verdure</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Huhn Thai Art mit Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine mit Pilzsauce</name>
+          <note>A</note>
+          <note>F</note>
+          <note>O</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-01-27">
+      <category name="Vegan">
+        <meal>
+          <name>Karfiolcremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Gemüsecurry mit Tofu und Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -57,25 +55,23 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Gemüse-Fleisch-Lasagne</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Karreebraten mit Bratkartoffeln</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gemüsestrudel mit Joghurt Dip</name>
+          <name>Linguine mit Pilzsauce</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-01-21">
+    <day date="2026-01-28">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -84,68 +80,76 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Kürbis Kartoffel Gulasch</name>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Cremespinat mit Rösti und Spiegelei</name>
-          <note>C</note>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Gemüsestrudel mit Joghurt Dip</name>
+          <name>Krautfleckerl</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-22">
-      <category name="Vegan">
-        <meal>
-          <name>Karotten Ingwer Suppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüse Fajita</name>
-          <note>A</note>
-          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Bratkartoffeln</name>
-          <note>L</note>
+          <name>Piccata Milanese vom Huhn mit Nudeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gemüsestrudel mit Joghurt Dip</name>
+          <name>Linguine mit Pilzsauce</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-01-23">
+    <day date="2026-01-29">
+      <category name="Vegan">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Backerbsensuppe</name>
+          <name>Spinatknödel mit Käsesauce</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Pasta Bolognese</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine mit Pilzsauce</name>
+          <note>A</note>
+          <note>F</note>
+          <note>O</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-01-30">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Nudelsuppe</name>
           <note>A</note>
           <note>C</note>
           <note>L</note>
@@ -155,28 +159,28 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>Kürbispasta</name>
+          <name>Pasta Siciliana</name>
           <note>A</note>
-          <note>F</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Scholle gebacken mit Petersilienkartoffeln</name>
+          <name>Hühnerkebab mit Gemüse-Bulgur</name>
           <note>A</note>
-          <note>C</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Gemüsestrudel mit Joghurt Dip</name>
+          <name>Linguine mit Pilzsauce</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>F</note>
+          <note>O</note>
           <price role="other">8.00</price>
         </meal>
       </category>
