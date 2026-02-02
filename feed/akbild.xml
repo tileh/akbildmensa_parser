@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-26">
+    <day date="2026-02-02">
       <category name="Vegan">
         <meal>
-          <name>Altwiener Suppe</name>
+          <name>Minestrone</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Verdure</name>
+          <name>Eiernockerl</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Faschierter Eintopf mit Polenta</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-03">
+      <category name="Vegan">
+        <meal>
+          <name>Maiscremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Pasta Zucchini</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -19,59 +52,21 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Huhn Thai Art mit Reis</name>
+          <name>Kurkuma-Zitronen-Huhn mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Linguine mit Pilzsauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
+          <name>-</name>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-01-27">
-      <category name="Vegan">
-        <meal>
-          <name>Karfiolcremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüsecurry mit Tofu und Reis</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Karreebraten mit Bratkartoffeln</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Linguine mit Pilzsauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-28">
+    <day date="2026-02-04">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -79,77 +74,70 @@
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
+      </category>
+      <category name="Vegetarisch">
         <meal>
-          <name>Krautfleckerl</name>
+          <name>Überbackene Melanzani mit Bulgur</name>
           <note>A</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Piccata Milanese vom Huhn mit Nudeln</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <name>Naturschnitzel vom Schwein mit Pilzsauce und Bratkartoffeln</name>
+          <note>F</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Linguine mit Pilzsauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
+          <name>-</name>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-01-29">
+    <day date="2026-02-05">
       <category name="Vegan">
         <meal>
-          <name>Tomatencremesuppe</name>
+          <name>Gemüsecremesuppe</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
-      </category>
-      <category name="Vegetarisch">
         <meal>
-          <name>Spinatknödel mit Käsesauce</name>
-          <note>A</note>
-          <note>C</note>
+          <name>Kichererbsen-Spinat-Curry</name>
           <note>F</note>
-          <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Pasta Bolognese</name>
+          <name>Überbackene Hühnerkeule mit Reis</name>
           <note>A</note>
+          <note>G</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Linguine mit Pilzsauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
+          <name>-</name>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-01-30">
+    <day date="2026-02-06">
       <category name="Vegetarisch">
         <meal>
-          <name>Nudelsuppe</name>
+          <name>Backerbsensuppe</name>
           <note>A</note>
           <note>C</note>
           <note>L</note>
@@ -159,28 +147,25 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>Pasta Siciliana</name>
+          <name>Pasta mit Pesto und Parmesan</name>
           <note>A</note>
-          <note>L</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerkebab mit Gemüse-Bulgur</name>
+          <name>Hühnerschnitzel mit Pommes</name>
           <note>A</note>
-          <note>L</note>
+          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Nicht Vegetarisch">
         <meal>
-          <name>Linguine mit Pilzsauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
+          <name>-</name>
           <price role="other">8.00</price>
         </meal>
       </category>
