@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-02-02">
+    <day date="2026-02-09">
+      <category name="Vegan">
+        <meal>
+          <name>Kokos-Spinatsuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Pasta Verdure</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Paprikahendl mit Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-10">
       <category name="Vegan">
         <meal>
           <name>Minestrone</name>
@@ -10,41 +43,7 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Eiernockerl</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Faschierter Eintopf mit Polenta</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Nicht Vegetarisch">
-        <meal>
-          <name>-</name>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-02-03">
-      <category name="Vegan">
-        <meal>
-          <name>Maiscremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Pasta Zucchini</name>
-          <note>A</note>
+          <name>Kartoffel Kürbis Gulasch</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -52,7 +51,7 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Kurkuma-Zitronen-Huhn mit Reis</name>
+          <name>Schweinegeschnetzeltes mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -66,7 +65,7 @@
         </meal>
       </category>
     </day>
-    <day date="2026-02-04">
+    <day date="2026-02-11">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -77,16 +76,16 @@
       </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Überbackene Melanzani mit Bulgur</name>
-          <note>A</note>
+          <name>Karfiol Kartoffel überbacken</name>
           <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Naturschnitzel vom Schwein mit Pilzsauce und Bratkartoffeln</name>
+          <name>Huhn Thai Art mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -100,44 +99,46 @@
         </meal>
       </category>
     </day>
-    <day date="2026-02-05">
+    <day date="2026-02-12">
       <category name="Vegan">
         <meal>
-          <name>Gemüsecremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Kichererbsen-Spinat-Curry</name>
+          <name>Kürbiscremesuppe</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Überbackene Hühnerkeule mit Reis</name>
-          <note>A</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Nicht Vegetarisch">
-        <meal>
-          <name>-</name>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-02-06">
       <category name="Vegetarisch">
         <meal>
-          <name>Backerbsensuppe</name>
+          <name>Pasta mit Spinat-Käse-Sauce</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Piccata Milanese mit Gemüsereis A;</name>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-13">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Nudelsuppe</name>
           <note>A</note>
           <note>C</note>
           <note>L</note>
@@ -147,18 +148,16 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>Pasta mit Pesto und Parmesan</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Falafel mit Rotkraut und Hummus</name>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Pommes</name>
+          <name>Hühnerroulade mit Bulgur</name>
           <note>A</note>
-          <note>C</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
