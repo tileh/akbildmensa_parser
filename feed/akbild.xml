@@ -1,4 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2026-04-07">
+      <category name="Vegan">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Pasta Verdure</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnergeschnetzeltes mit Champignons und Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-04-08">
+      <category name="Vegan">
+        <meal>
+          <name>Linsensuppe</name>
+          <note>P</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Gemüse-Linsen Gnocchi</name>
+          <note>A</note>
+          <note>F</note>
+          <note>L</note>
+          <note>P</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Wildschweinragout mit Bratkartoffeln (AT)</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-04-09">
+      <category name="Vegan">
+        <meal>
+          <name>Gemüsecremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Spinatknödel mit Käsesauce</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühner Gemüse Wok mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-04-10">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Backerbsensuppe</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Spinat Kürbis Küchen mit Joghurt Dip</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnerschnitzel mit Risi Bisi (PL)</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Nicht Vegetarisch">
+        <meal>
+          <name>-</name>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
