@@ -1,49 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-05-04">
+    <day date="2026-05-11">
       <category name="Vegan">
         <meal>
-          <name>Spinat-Kokos-Suppe</name>
+          <name>Ungarische Krautsuppe</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Spargelpasta</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Honig-Majoran-Braten vom Schwein mit Rosmarinkartoffeln (AT)</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-05">
-      <category name="Vegan">
-        <meal>
-          <name>Bärlauch Cremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Ratatouille mit Bulgur</name>
+          <name>Pasta alla Norma</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -52,33 +19,31 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerkeule überbacken mit Bratkartoffeln (PL)</name>
-          <note>G</note>
+          <name>Hühner-Reisfleisch (PL)</name>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Falafel mit Hummus und Rotkraut</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-05-06">
+    <day date="2026-05-12">
       <category name="Vegan">
         <meal>
-          <name>Linsensuppe</name>
-          <note>P</note>
+          <name>Spargelcremesuppe</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Gemüse Fajita</name>
-          <note>A</note>
+          <name>Tofu-Gemüseeintopf mit Reis</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -86,33 +51,31 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Pasta Bolognese (AT)</name>
-          <note>A</note>
-          <note>L</note>
+          <name>Jägerschnitzel vom Schwein mit Bratkartoffeln (AT)</name>
+          <note>O</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Falafel mit Hummus und Rotkraut</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-05-07">
+    <day date="2026-05-13">
       <category name="Vegan">
         <meal>
-          <name>Gemüsecremesuppe</name>
+          <name>Bärlauchcremesuppe</name>
           <note>F</note>
-          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Dillfisolen mit Rösti</name>
+          <name>Spargel Pasta</name>
+          <note>A</note>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -120,25 +83,26 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Würstelgulasch</name>
-          <note>L</note>
+          <name>Faschierte Laibchen mit Kartoffelpüree (AT)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Falafel mit Hummus und Rotkraut</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-05-08">
+    <day date="2026-05-15">
       <category name="Vegetarisch">
         <meal>
-          <name>Frittatensuppe</name>
+          <name>Nudelsuppe</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -146,29 +110,28 @@
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
+      </category>
+      <category name="Vegan">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Kartoffel-Kürbis Gulasch</name>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Fenchel Lachs Pasta</name>
+          <name>Hühnerschnitzel mit Risi Bisi (PL)</name>
           <note>A</note>
-          <note>D</note>
-          <note>F</note>
+          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegetarisch">
+      <category name="Wochenteller Vegan">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Falafel mit Hummus und Rotkraut</name>
           <note>A</note>
-          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
