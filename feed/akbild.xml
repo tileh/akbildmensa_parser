@@ -1,108 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-05-11">
+    <day date="2026-05-18">
       <category name="Vegan">
         <meal>
-          <name>Ungarische Krautsuppe</name>
+          <name>Kürbiscremesuppe</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta alla Norma</name>
+          <name>Spargelpasta</name>
           <note>A</note>
-          <note>L</note>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner-Reisfleisch (PL)</name>
+          <name>Curryhuhn mit Reis (PL)</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Vegetarisch">
         <meal>
-          <name>Falafel mit Hummus und Rotkraut</name>
-          <note>A</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-12">
-      <category name="Vegan">
-        <meal>
-          <name>Spargelcremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Tofu-Gemüseeintopf mit Reis</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Jägerschnitzel vom Schwein mit Bratkartoffeln (AT)</name>
-          <note>O</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Falafel mit Hummus und Rotkraut</name>
-          <note>A</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-13">
-      <category name="Vegan">
-        <meal>
-          <name>Bärlauchcremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Spargel Pasta</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Faschierte Laibchen mit Kartoffelpüree (AT)</name>
+          <name>Quiche Spinat oder Kürbis mit Salatgarnitur</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Falafel mit Hummus und Rotkraut</name>
-          <note>A</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-05-15">
+    <day date="2026-05-19">
+      <category name="Vegan">
+        <meal>
+          <name>Kartoffelcremesuppe</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Krautfleckerl</name>
+          <note>A</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Naturschnitzel vom Schwein in Pfeffersauce mit Bratkartoffeln (AT)</name>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegetarisch">
+        <meal>
+          <name>Quiche Spinat oder Kürbis mit Salatgarnitur</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-05-20">
+      <category name="Vegan">
+        <meal>
+          <name>Tomatensuppe</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
       <category name="Vegetarisch">
         <meal>
-          <name>Nudelsuppe</name>
+          <name>Zucchini al Greco</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühner-Gemüse-Wok mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegetarisch">
+        <meal>
+          <name>Quiche Spinat oder Kürbis mit Salatgarnitur</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-05-21">
+      <category name="Vegan">
+        <meal>
+          <name>Gemüsecremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Falafel mit Hummus und Rotkraut</name>
+          <note>A</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Linsen mit Knödel</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>P</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegetarisch">
+        <meal>
+          <name>Quiche Spinat oder Kürbis mit Salatgarnitur</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-05-22">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Frittatensuppe</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -113,7 +158,8 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>Kartoffel-Kürbis Gulasch</name>
+          <name>Gemüserisotto</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -121,17 +167,20 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Risi Bisi (PL)</name>
+          <name>Lasagne (AT)</name>
           <note>A</note>
           <note>C</note>
+          <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
-      <category name="Wochenteller Vegan">
+      <category name="Wochenteller Vegetarisch">
         <meal>
-          <name>Falafel mit Hummus und Rotkraut</name>
+          <name>Quiche Spinat oder Kürbis mit Salatgarnitur</name>
           <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
