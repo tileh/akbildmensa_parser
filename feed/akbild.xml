@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-05-25">
+    <day date="2026-06-01">
+      <category name="Vegan">
+        <meal>
+          <name>Gemüsecremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Kürbispesto</name>
+          <note>A</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Huhn indonesische Art mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine mit Spargel</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-06-02">
+      <category name="Vegan">
+        <meal>
+          <name>Linsensuppe</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Krautfleckerl</name>
+          <note>A</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Karreebraten in Pfeffersauce mit Bratkartoffeln (AT)</name>
+          <note>L</note>
+          <note>M</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine mit Spargel</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-06-03">
+      <category name="Vegan">
+        <meal>
+          <name>Minestrone</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Zucchini überbacken mit Bulgur</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Pasta Bolognese (AT)</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegan">
+        <meal>
+          <name>Linguine mit Spargel</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-06-04">
       <category name="Nicht Vegetarisch">
         <meal>
           <name>Feiertag</name>
@@ -18,117 +121,12 @@
         </meal>
       </category>
     </day>
-    <day date="2026-05-26">
-      <category name="Vegan">
-        <meal>
-          <name>Selleriecremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Pasta Primavera</name>
-          <note>A</note>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Puten-Honigbraten mit Reis (PL)</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Linguine mit Spargel</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-27">
-      <category name="Vegan">
-        <meal>
-          <name>Zucchini-Basilikum-Cremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüseeintopf mit Polenta</name>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Hühnergeschnetzeltes mit Reis (PL)</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Linguine mit Spargel</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-28">
-      <category name="Vegan">
-        <meal>
-          <name>Spargelcremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
+    <day date="2026-06-05">
       <category name="Vegetarisch">
         <meal>
-          <name>Melanzani überbacken mit Bulgur</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Wildschweinragout mit Bratkartoffeln</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegan">
-        <meal>
-          <name>Linguine mit Spargel</name>
-          <note>A</note>
-          <note>F</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-29">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Nudelsuppe</name>
+          <name>Backerbsensuppe</name>
           <note>A</note>
           <note>C</note>
-          <note>G</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -136,18 +134,18 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>Pasta Verdure</name>
-          <note>A</note>
-          <note>L</note>
+          <name>Spargel-Zucchini Eintopf mit Petersilienkartoffeln</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerschnitzel mit Petersilienkartoffeln (PL)</name>
+          <name>Scholle gebacken mit Risi Bisi (UZ)</name>
           <note>A</note>
           <note>C</note>
+          <note>D</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
