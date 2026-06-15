@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-06-08">
+    <day date="2026-06-15">
       <category name="Vegan">
         <meal>
-          <name>Ungarische Krautsuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Gemüse Risotto mit Granatapfel</name>
-          <note>F</note>
+          <name>Orientalischer Gemüseeintopf mit Bulgur</name>
+          <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -19,32 +13,83 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Jägerschnitzel vom Schwein mit Bratkartoffeln (AT)</name>
-          <note>L</note>
+          <name>Paprikahendl mit Reis (PL)</name>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
       <category name="Wochenteller Vegetarisch">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Quiche mit Salatgarnitur</name>
           <note>A</note>
+          <note>C</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-06-09">
-      <category name="Vegan">
+    <day date="2026-06-16">
+      <category name="Nicht Vegetarisch">
         <meal>
-          <name>Linsensuppe</name>
+          <name>Gemüse Wok mit Reis</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Stroganoff vom Schwein mit Reis</name>
+          <note>F</note>
+          <note>L</note>
           <note>P</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegetarisch">
+        <meal>
+          <name>Quiche mit Salatgarnitur</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-06-17">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Melanzani überbacken mit Bulgur</name>
+          <note>A</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
         <meal>
-          <name>Spargelpasta</name>
+          <name>Überbackene Schinkenfleckerl</name>
           <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenteller Vegetarisch">
+        <meal>
+          <name>Quiche mit Salatgarnitur</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">8.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-06-18">
+      <category name="Vegan">
+        <meal>
+          <name>Dillfisolen mit Rösti</name>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -52,7 +97,7 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühner-Gemüse-Wok mit Reis (PL)</name>
+          <name>Curryhuhn mit Reis (PL)</name>
           <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
@@ -61,122 +106,36 @@
       </category>
       <category name="Wochenteller Vegetarisch">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
+          <name>Quiche mit Salatgarnitur</name>
           <note>A</note>
+          <note>C</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-06-10">
-      <category name="Vegan">
-        <meal>
-          <name>Maiscremesuppe</name>
-          <note>F</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Ratatouille mit Bulgur</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
+    <day date="2026-06-19">
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Pasta Salmone</name>
+          <name>Karfiol-Kartoffel überbacken mit Joghurt Dip</name>
+          <note>G</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Gebackene Scholle mit Petersilienkartoffeln</name>
           <note>A</note>
+          <note>C</note>
           <note>D</note>
-          <note>F</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
       <category name="Wochenteller Vegetarisch">
         <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-06-11">
-      <category name="Vegan">
-        <meal>
-          <name>Gemüsecremesuppe</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Vegetarisch">
-        <meal>
-          <name>Spinatknödel mit Käsesauce</name>
+          <name>Quiche mit Salatgarnitur</name>
           <note>A</note>
           <note>C</note>
-          <note>F</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Lasagne (AT)</name>
-          <note>A</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">8.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-06-12">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Nudelsuppe</name>
-          <note>A</note>
-          <note>C</note>
-          <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Linsen-Tofu Eintopf mit Bulgur</name>
-          <note>A</note>
-          <note>F</note>
-          <note>P</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Hühnerschnitzel mit Petersilienkartoffeln</name>
-          <note>A</note>
-          <note>C</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenteller Vegetarisch">
-        <meal>
-          <name>Schafkäse mit gegrilltem Gemüse</name>
-          <note>A</note>
           <note>G</note>
           <price role="other">8.00</price>
         </meal>
