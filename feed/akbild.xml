@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-06-22">
+    <day date="2026-06-29">
       <category name="Vegan">
         <meal>
-          <name>Pasta Verdure</name>
+          <name>Pasta Primavera</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -13,17 +13,18 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerbrust überbacken mit Reis (PL)</name>
+          <name>Hühnerbrust überbacken mit Tomaten-Käse und Bulgur (PL)</name>
+          <note>A</note>
           <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-06-23">
+    <day date="2026-06-30">
       <category name="Vegan">
         <meal>
-          <name>Gemüseeintopf mit Bulgur</name>
+          <name>Gemüse Fajita</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -32,65 +33,68 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Honig-Karreebraten mit Bratkartoffeln (AT)</name>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-06-24">
-      <category name="Vegan">
-        <meal>
-          <name>Taboule</name>
-          <note>A</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Hühnerspieß mit Erbsen-Karotten Reis und Dip (PL)</name>
+          <name>Saltimbocca vom Schwein mit Bratkartoffeln (AT)</name>
           <note>G</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-06-25">
+    <day date="2026-07-01">
       <category name="Vegan">
         <meal>
-          <name>Gefüllte Paprika mit Dip</name>
+          <name>Krautfleckerl</name>
           <note>A</note>
-          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Schweinefleisch-Gemüse-Eintopf mit Kartoffeln</name>
+          <name>Hühnergeschnetzeltes mit Reis (PL)</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-06-26">
-      <category name="Vegan">
+    <day date="2026-07-02">
+      <category name="Vegetarisch">
         <meal>
-          <name>Pasta Puttanesca</name>
+          <name>Pasta mit Spinat-Käse-Sauce</name>
           <note>A</note>
-          <note>L</note>
+          <note>F</note>
+          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Gegrillte Forelle mit Kartoffeln</name>
-          <note>D</note>
+          <name>Orientalischer Hühnereintopf mit Bulgur (PL)</name>
+          <note>A</note>
           <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-03">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Gefüllte Melanzani mit Schafkäse und Bulgur</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnerschnitzel mit Petersilienkartoffeln (PL)</name>
+          <note>A</note>
+          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
