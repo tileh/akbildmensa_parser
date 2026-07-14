@@ -48,6 +48,7 @@ class Parser:
         try:
             wochenteller = self._parse_wochenteller(menuplan)
         except Exception as e:
+            wochenteller = None
             log.warning(f"Could not parse Wochenteller: {e}")
 
         monday_tag = menuplan.find_next_sibling(
