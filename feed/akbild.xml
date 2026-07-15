@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-06-29">
+    <day date="2026-07-13">
+      <category name="Vegan">
+        <meal>
+          <name>Orientalischer Gemüseeintopf mit Bulgur</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Naturschnitzel vom Schwein mit Champignonsauce und Reis (AT)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-14">
+      <category name="Vegan">
+        <meal>
+          <name>Kürbispasta</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnerspieß mit Reis (PL)</name>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-15">
+      <category name="Vegan">
+        <meal>
+          <name>Gefüllte Melanzani mit Bulgur</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Huhn indonesische Art mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-16">
+      <category name="Vegan">
+        <meal>
+          <name>Dillfisolen mit Rösti</name>
+          <note>F</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Burger Laibchen vom Rind überbacken mit Bratkartoffeln (AT)</name>
+          <note>G</note>
+          <note>L</note>
+          <price role="other">7.00</price>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-17">
       <category name="Vegan">
         <meal>
           <name>Pasta Primavera</name>
@@ -13,88 +90,9 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Hühnerbrust überbacken mit Tomaten-Käse und Bulgur (PL)</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-06-30">
-      <category name="Vegan">
-        <meal>
-          <name>Gemüse Fajita</name>
-          <note>A</note>
+          <name>Gegrillte Forelle mit Petersilienkartoffeln (TR)</name>
+          <note>D</note>
           <note>L</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Saltimbocca vom Schwein mit Bratkartoffeln (AT)</name>
-          <note>G</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-07-01">
-      <category name="Vegan">
-        <meal>
-          <name>Krautfleckerl</name>
-          <note>A</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Hühnergeschnetzeltes mit Reis (PL)</name>
-          <note>F</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-07-02">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Pasta mit Spinat-Käse-Sauce</name>
-          <note>A</note>
-          <note>F</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Orientalischer Hühnereintopf mit Bulgur (PL)</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-07-03">
-      <category name="Vegetarisch">
-        <meal>
-          <name>Gefüllte Melanzani mit Schafkäse und Bulgur</name>
-          <note>A</note>
-          <note>G</note>
-          <price role="other">6.00</price>
-          <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Hühnerschnitzel mit Petersilienkartoffeln (PL)</name>
-          <note>A</note>
-          <note>C</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
