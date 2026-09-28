@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-21">
+    <day date="2026-09-28">
       <category name="Vegan">
         <meal>
-          <name>Minestrone</name>
-          <note>L</note>
+          <name>Karfiolcremesuppe</name>
+          <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Pasta Siciliana</name>
+          <name>Pasta Verdure</name>
           <note>A</note>
           <note>L</note>
           <price role="other">6.00</price>
@@ -19,14 +19,15 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Wildschweinragout mit Polenta (AT)</name>
+          <name>Hühnergeschnetzeltes mit Champignons und Reis (PL)</name>
+          <note>F</note>
           <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-09-22">
+    <day date="2026-09-29">
       <category name="Vegan">
         <meal>
           <name>Linsensuppe</name>
@@ -35,8 +36,7 @@
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Gemüseeintopf mit Bulgur</name>
-          <note>A</note>
+          <name>Kürbisgulasch</name>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -44,85 +44,77 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Lasagne (AT)</name>
-          <note>A</note>
-          <note>G</note>
+          <name>Honig Karreebraten mit Bratkartoffeln</name>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-09-23">
+    <day date="2026-09-30">
       <category name="Vegan">
         <meal>
-          <name>Ungarische Krautsuppe</name>
+          <name>Orientalische Bauernsuppe</name>
+          <note>A</note>
           <note>F</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
-      </category>
-      <category name="Vegetarisch">
         <meal>
-          <name>Kürbisknödel</name>
+          <name>Gemüse Fajita</name>
           <note>A</note>
-          <note>C</note>
-          <note>F</note>
-          <note>G</note>
+          <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Bauerngröstl (AT)</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <name>Hühnerpfanne mit Reis</name>
+          <note>F</note>
+          <note>L</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-09-24">
+    <day date="2026-10-01">
       <category name="Vegan">
         <meal>
-          <name>Gemüsecremesuppe</name>
+          <name>Minestrone</name>
+          <note>L</note>
+          <price role="other">6.00</price>
+          <price role="student">4.00</price>
+        </meal>
+        <meal>
+          <name>Tofu-Gemüsecurry mit Reis</name>
           <note>F</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
-      </category>
-      <category name="Vegetarisch">
         <meal>
-          <name>Pasta Quattro Formaggi</name>
+          <name>Falafel mit Hummus und Rotkraut</name>
           <note>A</note>
-          <note>F</note>
-          <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
-        </meal>
-      </category>
-      <category name="Nicht Vegetarisch">
-        <meal>
-          <name>Paprikahendl mit Reis</name>
-          <price role="other">7.00</price>
-          <price role="student">5.00</price>
         </meal>
       </category>
     </day>
-    <day date="2026-09-25">
+    <day date="2026-10-02">
       <category name="Vegetarisch">
         <meal>
-          <name>Nudelsuppe</name>
+          <name>Frittatensuppe</name>
           <note>A</note>
           <note>C</note>
+          <note>G</note>
           <note>L</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
         </meal>
         <meal>
-          <name>Karfiol-Kartoffel überbacken</name>
+          <name>Melanzani überbacken mit Bulgur</name>
+          <note>A</note>
           <note>G</note>
           <price role="other">6.00</price>
           <price role="student">4.00</price>
@@ -130,10 +122,9 @@
       </category>
       <category name="Nicht Vegetarisch">
         <meal>
-          <name>Gebackener Zander mit Risi Bisi (PL)</name>
+          <name>Hühnerschnitzel mit Petersilienkartoffeln (PL)</name>
           <note>A</note>
           <note>C</note>
-          <note>D</note>
           <price role="other">7.00</price>
           <price role="student">5.00</price>
         </meal>
