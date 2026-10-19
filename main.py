@@ -29,9 +29,9 @@ NON_VEGETERIAN = "Nicht Vegetarisch"
 VEGETERIAN = "Vegetarisch"
 VEGAN = "Vegan"
 
-VEG_PRICE = 6
-NON_VEG_PRICE = 7
-WOCHENTELLER_PRICE = 8
+VEG_PRICE = 6,5
+NON_VEG_PRICE = 7,5
+WOCHENTELLER_PRICE = 9
 
 
 class Parser:
