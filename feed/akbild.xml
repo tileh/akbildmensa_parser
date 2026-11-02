@@ -1,4 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2026-11-02">
+      <category name="Vegan">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <note>F</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Pasta Zucchini Mascarpone</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Teriyaki-Karreebraten mit Bratkartoffeln (AT)</name>
+          <note>L</note>
+          <price role="other">7.50</price>
+          <price role="student">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-03">
+      <category name="Vegan">
+        <meal>
+          <name>Minestrone</name>
+          <note>L</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Eierspätzle</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühner-Gemüse-Wok mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.50</price>
+          <price role="student">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-04">
+      <category name="Vegan">
+        <meal>
+          <name>Maiscremesuppe</name>
+          <note>F</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Spinaci mit Feta</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Naturschnitzel vom Schwein in Champignonsauce mit Reis (AT)</name>
+          <note>L</note>
+          <price role="other">7.50</price>
+          <price role="student">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-05">
+      <category name="Vegan">
+        <meal>
+          <name>Kürbiscremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+        <meal>
+          <name>Dillfisolen mit Rösti</name>
+          <note>F</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnercurry mit Reis (PL)</name>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">7.50</price>
+          <price role="student">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-06">
+      <category name="Vegetarisch">
+        <meal>
+          <name>Nudelsuppe</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Gefüllte Paprika mit Dip</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">6.50</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Nicht Vegetarisch">
+        <meal>
+          <name>Hühnerschnitzel mit Risi Bisi (PL)</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">7.50</price>
+          <price role="student">5.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
