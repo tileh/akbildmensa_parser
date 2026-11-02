@@ -1,4 +1,3 @@
-import io
 import logging
 import os
 import re
@@ -33,6 +32,8 @@ VEG_PRICE = 6.5
 NON_VEG_PRICE = 7.5
 WOCHENTELLER_PRICE = 9.0
 
+class InvalidMenuDateError(ValueError):
+    """Raised when the parsed menu start date is not a Monday."""
 
 class Parser:
     def generate_feed(self, fetch_date: date) -> str:
@@ -47,7 +48,7 @@ class Parser:
 
         try:
             wochenteller = self._parse_wochenteller(menuplan)
-        except Exception as e:
+        except AttributeError as e:
             wochenteller = None
             log.warning(f"Could not parse Wochenteller: {e}")
 
@@ -62,7 +63,7 @@ class Parser:
                 current_day_menu = self._find_menu_in_current_weekday_content(
                     weekday_content=weekday_content
                 )
-            except Exception as e:
+            except (AttributeError, ValueError) as e:
                 log.warning(f"Could not find menu in weekday_content: {e}")
 
             current_date = monday_date + timedelta(days=i)
@@ -118,12 +119,12 @@ class Parser:
                 parsed_start_date = parsed_start_date.replace(year=fetch_date.year - 1)
 
             if parsed_start_date.weekday() != 0:
-                raise Exception(
+                raise InvalidMenuDateError(
                     f"Parsed start date is not a Monday: {parsed_start_date}"
                 )
 
             monday_date = parsed_start_date
-        except Exception as e:
+        except (AttributeError, TypeError, ValueError) as e:
             log.warning(
                 f"Could not parse weekinfo string: {e}. Falling back to fetch_date."
             )
@@ -236,5 +237,5 @@ if __name__ == "__main__":
         fetch_date += timedelta(days=(7 - fetch_date.weekday()))
 
     feed = Parser().generate_feed(fetch_date)
-    with io.open("feed/akbild.xml", "w", encoding="utf8", newline="\n") as f:
+    with open("feed/akbild.xml", "w", encoding="utf8", newline="\n") as f:
         f.write(feed)
